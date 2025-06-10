@@ -7,6 +7,7 @@ android {
     compileSdk 36
 
     defaultConfig {
+        ndkVersion '23.2.8568313'
         applicationId "com.luoye.dpt"
         minSdkVersion 21
         targetSdkVersion 36
@@ -38,7 +39,7 @@ android {
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
-            version "3.31.1"
+            version "4.0.2"
         }
     }
     compileOptions {

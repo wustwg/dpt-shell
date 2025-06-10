@@ -31,3 +31,4 @@
 -keep class com.luoyesiqiu.shell.JniBridge {
     native <methods>;
 }
+-repackageclasses com.luoyesiqiu.shell
