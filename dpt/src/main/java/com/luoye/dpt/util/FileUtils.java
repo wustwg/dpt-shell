@@ -64,6 +64,14 @@ public class FileUtils {
     }
 
     /**
+     * Get the dir of the jar package
+     */
+    public static String getJarParentPath(){
+        String parentPath = new File(System.getProperty("java.class.path")).getParent();
+        return parentPath;
+    }
+
+    /**
      * fixCheckSumHeader
      * @param dexBytes
      */
